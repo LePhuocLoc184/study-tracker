@@ -1,0 +1,34 @@
+services:
+  # Spring Boot Backend
+  - type: web
+    name: study-tracker-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/study_tracker?useSSL=true&requireSSL=true
+      - key: SPRING_DATASOURCE_USERNAME
+        value: YOUR_TIDB_USERNAME
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: YOUR_TIDB_PASSWORD
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://study-tracker-frontend.onrender.com
+
+  # React Frontend
+  - type: web
+    name: study-tracker-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://study-tracker-backend.onrender.com/api
+      - key: VITE_WS_URL
+        value: wss://study-tracker-backend.onrender.com/ws
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

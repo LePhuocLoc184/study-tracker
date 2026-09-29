@@ -1,0 +1,572 @@
+[
+  {
+    "day": 1,
+    "phase": "Java Core & Modern Features",
+    "topic": "Cú pháp, Kiểu dữ liệu & Cơ chế bộ nhớ",
+    "tasks": [
+      {
+        "id": "day_1_task_1",
+        "title": "Cú pháp cơ bản, kiểu dữ liệu primitive vs object wrapper, type casting",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_1_task_2",
+        "title": "Cơ chế quản lý bộ nhớ: Stack vs Heap, cơ chế Garbage Collection",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "phase": "Java Core & Modern Features",
+    "topic": "OOP Chuyên sâu trong Java",
+    "tasks": [
+      {
+        "id": "day_2_task_1",
+        "title": "4 tính chất OOP, abstract class vs interface",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_2_task_2",
+        "title": "Từ khóa final, static; tính bất biến với Record (Java 16+)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "phase": "Java Core & Modern Features",
+    "topic": "Collections Framework I (List & Set)",
+    "tasks": [
+      {
+        "id": "day_3_task_1",
+        "title": "ArrayList vs LinkedList (độ phức tạp O(1) vs O(n))",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_3_task_2",
+        "title": "HashSet, TreeSet và quy tắc bắt buộc override equals() & hashCode()",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "phase": "Java Core & Modern Features",
+    "topic": "Collections Framework II (Map & Queue)",
+    "tasks": [
+      {
+        "id": "day_4_task_1",
+        "title": "HashMap nội suy: bucket array, hash collision, red-black tree",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_4_task_2",
+        "title": "LinkedHashMap, TreeMap, PriorityQueue và các cách duyệt Map tối ưu",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "phase": "Java Core & Modern Features",
+    "topic": "Exception Handling & Optionals",
+    "tasks": [
+      {
+        "id": "day_5_task_1",
+        "title": "Checked vs Unchecked Exceptions, khối try-with-resources",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_5_task_2",
+        "title": "Custom Exception và xử lý triệt để NullPointerException với Optional",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "phase": "Java Core & Modern Features",
+    "topic": "Functional Programming & Stream API I",
+    "tasks": [
+      {
+        "id": "day_6_task_1",
+        "title": "Lambda Expressions cú pháp và cơ chế",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_6_task_2",
+        "title": "Built-in Functional Interfaces: Predicate, Function, Consumer, Supplier",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "phase": "Java Core & Modern Features",
+    "topic": "Stream API II (Thao tác dữ liệu)",
+    "tasks": [
+      {
+        "id": "day_7_task_1",
+        "title": "Intermediate operations: filter, map, flatMap, sorted, distinct",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_7_task_2",
+        "title": "Terminal operations: collect, reduce, count, findFirst, anyMatch",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "phase": "Java Core & Modern Features",
+    "topic": "Multithreading & Virtual Threads",
+    "tasks": [
+      {
+        "id": "day_8_task_1",
+        "title": "Vòng đời Thread, Runnable, Callable, ExecutorService pool",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_8_task_2",
+        "title": "Virtual Threads (Java 21) và cơ chế xử lý đồng thời non-blocking",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "phase": "Build Tool & Spring Core Architecture",
+    "topic": "Quản lý dự án với Maven",
+    "tasks": [
+      {
+        "id": "day_9_task_1",
+        "title": "Cấu trúc thư mục chuẩn Maven và file pom.xml",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_9_task_2",
+        "title": "Dependency Scopes (compile, test, provided, runtime) và lifecycle build",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "phase": "Build Tool & Spring Core Architecture",
+    "topic": "Spring Core: Inversion of Control (IoC) & Bean",
+    "tasks": [
+      {
+        "id": "day_10_task_1",
+        "title": "Khái niệm IoC Container và vòng đời của Spring Bean",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_10_task_2",
+        "title": "Stereotype Annotations: @Component, @Service, @Repository, @Configuration, @Bean",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "phase": "Build Tool & Spring Core Architecture",
+    "topic": "Dependency Injection (DI) Chuyên sâu",
+    "tasks": [
+      {
+        "id": "day_11_task_1",
+        "title": "So sánh Field Injection (@Autowired) vs Constructor Injection",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_11_task_2",
+        "title": "Xử lý xung đột injection với @Primary và @Qualifier",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "phase": "Build Tool & Spring Core Architecture",
+    "topic": "Khởi tạo dự án Spring Boot 3",
+    "tasks": [
+      {
+        "id": "day_12_task_1",
+        "title": "Khởi tạo project qua Spring Initializr (Java 17/21, Spring Boot 3.x)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_12_task_2",
+        "title": "Cơ chế Auto-Configuration và bản chất của @SpringBootApplication",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "phase": "Build Tool & Spring Core Architecture",
+    "topic": "Cấu hình môi trường (Properties/YAML)",
+    "tasks": [
+      {
+        "id": "day_13_task_1",
+        "title": "Cấu hình qua application.yml/properties, đọc giá trị với @Value",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_13_task_2",
+        "title": "Type-safe config với @ConfigurationProperties và quản lý Multi-profiles (dev, prod)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "phase": "RESTful API & Database Access",
+    "topic": "Xây dựng REST API (Controller Layer)",
+    "tasks": [
+      {
+        "id": "day_14_task_1",
+        "title": "@RestController, chuẩn URL RESTful và HTTP status codes",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_14_task_2",
+        "title": "Bắt tham số request: @PathVariable, @RequestParam, @RequestBody, @RequestHeader",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "phase": "RESTful API & Database Access",
+    "topic": "DTO Pattern & Request Validation",
+    "tasks": [
+      {
+        "id": "day_15_task_1",
+        "title": "Tách biệt Data Transfer Object (DTO) khỏi Domain Entity",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_15_task_2",
+        "title": "Validation dữ liệu đầu vào với @Valid, @NotNull, @NotBlank, @Size, @Email",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "phase": "RESTful API & Database Access",
+    "topic": "Global Exception Handling",
+    "tasks": [
+      {
+        "id": "day_16_task_1",
+        "title": "Bắt lỗi tập trung với @ControllerAdvice / @RestControllerAdvice và @ExceptionHandler",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_16_task_2",
+        "title": "Chuẩn hóa format response lỗi JSON thống nhất cho Frontend (code, message, timestamp)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "phase": "RESTful API & Database Access",
+    "topic": "JDBC & Giới thiệu ORM / Hibernate",
+    "tasks": [
+      {
+        "id": "day_17_task_1",
+        "title": "Hạn chế của JDBC thuần, khái niệm Object-Relational Mapping (ORM)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_17_task_2",
+        "title": "Hibernate vai trò JPA Provider: ánh xạ class sang database table",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "phase": "RESTful API & Database Access",
+    "topic": "Spring Data JPA: Entity & Basic CRUD",
+    "tasks": [
+      {
+        "id": "day_18_task_1",
+        "title": "Cấu hình JPA Entity: @Entity, @Table, @Id, @GeneratedValue, @Column",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_18_task_2",
+        "title": "Kế thừa JpaRepository và thực hiện các thao tác CRUD cơ bản",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "phase": "RESTful API & Database Access",
+    "topic": "JPA Relationships (Quan hệ dữ liệu)",
+    "tasks": [
+      {
+        "id": "day_19_task_1",
+        "title": "Mapping quan hệ: @OneToMany, @ManyToOne, @JoinColumn",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_19_task_2",
+        "title": "Phân biệt FetchType (LAZY vs EAGER) và cấu hình CascadeType",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "phase": "RESTful API & Database Access",
+    "topic": "Custom Query & Derived Query Methods",
+    "tasks": [
+      {
+        "id": "day_20_task_1",
+        "title": "Derived Queries tự động bằng tên hàm (findBy..., Containing, IsNull)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_20_task_2",
+        "title": "Viết query tùy chỉnh với @Query (JPQL vs Native SQL)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "phase": "RESTful API & Database Access",
+    "topic": "Phân trang & Sắp xếp (Pagination & Sorting)",
+    "tasks": [
+      {
+        "id": "day_21_task_1",
+        "title": "Truyền Pageable, PageRequest và Sort vào repository",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_21_task_2",
+        "title": "Đóng gói response phân trang Page<T> thành payload chuẩn cho client",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "phase": "RESTful API & Database Access",
+    "topic": "Quản lý Giao dịch (Transaction Management)",
+    "tasks": [
+      {
+        "id": "day_22_task_1",
+        "title": "Annotation @Transactional và đảm bảo nguyên tắc ACID trong service",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_22_task_2",
+        "title": "Cơ chế rollback khi gặp unchecked exception và cấu hình rollbackFor",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Spring Security Architecture",
+    "tasks": [
+      {
+        "id": "day_23_task_1",
+        "title": "Kiến trúc SecurityFilterChain, AuthenticationManager và UserDetailsService",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_23_task_2",
+        "title": "Mã hóa mật khẩu an toàn với BCryptPasswordEncoder",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Triển khai Xác thực JWT (JSON Web Token)",
+    "tasks": [
+      {
+        "id": "day_24_task_1",
+        "title": "Viết JwtService tạo và kiểm tra signature của token",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_24_task_2",
+        "title": "Tạo JwtAuthenticationFilter chặn mọi request để trích xuất token vào SecurityContext",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Phân quyền người dùng (Role-Based Authorization)",
+    "tasks": [
+      {
+        "id": "day_25_task_1",
+        "title": "Phân quyền theo URL trong filter chain (requestMatchers, hasRole, hasAuthority)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_25_task_2",
+        "title": "Phân quyền ở method-level bằng annotation @PreAuthorize",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Cấu hình CORS (Cross-Origin Resource Sharing)",
+    "tasks": [
+      {
+        "id": "day_26_task_1",
+        "title": "Cơ chế CORS và preflight request (OPTIONS)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_26_task_2",
+        "title": "Cấu hình Bean CorsConfigurationSource cho phép Frontend gửi JWT và cookie",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Testing cơ bản với JUnit 5 & Mockito",
+    "tasks": [
+      {
+        "id": "day_27_task_1",
+        "title": "Viết Unit Test cho Service logic với @Mock, @InjectMocks và Mockito.when()",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_27_task_2",
+        "title": "Test tích hợp API Controller bằng @WebMvcTest và MockMvc",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Tích hợp API Documentation với Swagger / OpenAPI",
+    "tasks": [
+      {
+        "id": "day_28_task_1",
+        "title": "Cài đặt thư viện springdoc-openapi-starter-webmvc-ui",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_28_task_2",
+        "title": "Cấu hình JWT authentication trực tiếp trên giao diện Swagger UI để test API",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Đóng gói Docker Container",
+    "tasks": [
+      {
+        "id": "day_29_task_1",
+        "title": "Viết Dockerfile multi-stage tối ưu dung lượng ảnh cho Spring Boot jar",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_29_task_2",
+        "title": "Viết docker-compose.yml khởi chạy đồng thời Spring Boot app và Database",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "phase": "Security, Auth & Deployment",
+    "topic": "Ghép nối Full Stack & Tổng kết",
+    "tasks": [
+      {
+        "id": "day_30_task_1",
+        "title": "Nối toàn bộ REST API Spring Boot vào giao diện Frontend (Login, CRUD, Token refresh)",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      },
+      {
+        "id": "day_30_task_2",
+        "title": "Review toàn diện kiến trúc full stack và kiểm thử end-to-end",
+        "completed_by": { "user_a": false, "user_b": false },
+        "notes": { "user_a": "", "user_b": "" }
+      }
+    ]
+  }
+]

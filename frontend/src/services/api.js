@@ -1,0 +1,58 @@
+import axios from 'axios';
+import { API_BASE_URL } from '../utils/constants';
+
+const api = axios.create({
+  baseURL: API_BASE_URL,
+});
+
+// Attach JWT token to every request
+api.interceptors.request.use((config) => {
+  const token = localStorage.getItem('token');
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
+
+// Handle 401 responses globally
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      // Only redirect if not already on login
+      if (window.location.pathname !== '/login') {
+        window.location.href = '/login';
+      }
+    }
+    return Promise.reject(error);
+  }
+);
+
+export const fetchTasks = async () => {
+  const response = await api.get('/tasks');
+  return response.data;
+};
+
+export const initTasks = async (tasks) => {
+  const response = await api.post('/tasks/init', tasks);
+  return response.data;
+};
+
+export const updateTaskStatus = async (id, completed) => {
+  const response = await api.patch(`/tasks/${id}/status`, { completed });
+  return response.data;
+};
+
+export const updateTaskNote = async (id, note) => {
+  const response = await api.patch(`/tasks/${id}/notes`, { note });
+  return response.data;
+};
+
+export const fetchProgress = async () => {
+  const response = await api.get('/tasks/progress');
+  return response.data;
+};
+
+export default api;

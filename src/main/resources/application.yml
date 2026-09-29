@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/study_tracker?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh&allowPublicKeyRetrieval=true}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:01884814110Loc*}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8080
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:Y2hhbmdlLXRoaXMtdG8tYS1sb25nLXNlY3VyZS1yYW5kb20tc2VjcmV0LWtleS1mb3ItcHJvZHVjdGlvbg==}
+    expiration-ms: 86400000
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
